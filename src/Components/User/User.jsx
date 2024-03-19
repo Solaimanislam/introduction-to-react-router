@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// import PropType from 'prop-types';
 
 
 const User = ({user}) => {
@@ -19,5 +20,9 @@ const User = ({user}) => {
         </div>
     );
 };
+
+// User.proptypes = {
+//     user: PropType.object
+// }
 
 export default User;
